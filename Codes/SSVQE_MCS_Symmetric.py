@@ -186,7 +186,7 @@ class SSVQE_MCS_Symmetric():
 
     def quantum_MCS_circulant(self):
         """
-        Perform VQD Monte Carlo Simulation (MCS) similar to the last example of the paper by taliadouros et al. in a symmetric circulant matrix
+        Perform VQD Monte Carlo Simulation (MCS) similar to the last example of the paper; in a symmetric circulant matrix
         The same code is applicable to non-circulant matrices with proper modification of the input matrix
 
         Returns:
@@ -231,7 +231,7 @@ class SSVQE_MCS_Symmetric():
 
     def results_to_csv(self):
         df = pd.DataFrame(self.results)
-        df.to_csv('SSVQE_MCS_taliadouros_et_al.csv')
+        df.to_csv('SSVQE_MCS_symmetric.csv')
 
         df = pd.DataFrame(self.result_numpy_kf)
-        df.to_csv('Numpy-SSVQE_MCS_SSVQE_taliadouros_et_al.csv')
+        df.to_csv('Numpy-SSVQE_MCS_SSVQE_symmetric.csv')
