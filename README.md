@@ -6,4 +6,4 @@ https://doi.org/10.1016/j.probengmech.2025.103814
 
 Reproduction of this work should be properly cited
 
-Questions related to the paper or the code can be addressed to: lt2887@columbia.edu
+Inquiries related to the paper or its code can be addressed to: lt2887@columbia.edu
